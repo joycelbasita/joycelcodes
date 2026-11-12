@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   editButton: {
     backgroundColor: '#8C83C6',
     paddingVertical: 8,
-    paddingHorizontal: 18,
+    paddingHorizontal: 20,
     borderRadius: 7,
   },
   deleteButton: {
