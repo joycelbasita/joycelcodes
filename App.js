@@ -140,7 +140,7 @@ const App = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.header}>My Notes</Text>
+      <Text style={styles.header}>MY NOTES</Text>
 
       <Text style={styles.subtitle}>
         Keep your important thoughts in one place.
