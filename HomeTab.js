@@ -14,7 +14,7 @@ const HomeTab = () => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Annyeong! Welcome!</Text>
+      <Text style={styles.title}Hi! Welcome!</Text>
 
       <View style={styles.card}>
         <Text style={styles.label}>Your Current Username</Text>
