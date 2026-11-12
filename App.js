@@ -87,7 +87,6 @@ const App = () => {
     setEditingId(note.id);
   };
 
-  // DELETE: Remove a note and update device storage
   const handleDeleteNote = (id) => {
     Alert.alert(
       'Delete Note',
