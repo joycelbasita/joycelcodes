@@ -17,7 +17,7 @@ const HomeTab = () => {
       <Text style={styles.title}Hi! Welcome!</Text>
 
       <View style={styles.card}>
-        <Text style={styles.label}>Your Current Username</Text>
+        <Text style={styles.label}>Current Username</Text>
         <Text style={styles.username}>{username}</Text>
         <Text style={styles.message}>
           Your profile information is shared across tabs.
