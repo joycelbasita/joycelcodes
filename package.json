@@ -1,0 +1,23 @@
+{
+  "name": "clickbites",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ClickBites - discover local food in Calbayog City (React + Node.js + Supabase)",
+  "scripts": {
+    "postinstall": "npm --prefix client install",
+    "dev": "concurrently -n server,client -c blue,magenta \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "node --watch server/index.js",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node server/index.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
