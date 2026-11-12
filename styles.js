@@ -56,7 +56,7 @@ const styles = StyleSheet.create({
   statusText: {
     color: '#8C83C6',
     textAlign: 'center',
-    marginBottom: 15,
+    marginBottom: 10,
     fontSize: 17,
   },
 });
