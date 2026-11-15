@@ -1334,9 +1334,7 @@ button.link {
   text-align: right;
 }
 
-/* ==========================================
-   FLOATING QUICK VIEW MODAL
-   ========================================== */
+//FLOATING QUICK VIEW MODAL
 .modal-overlay {
   position: fixed;
   inset: 0;
